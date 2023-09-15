@@ -138,6 +138,7 @@ namespace ExcelSheetNameList
                 return;
             }
 
+            textBox1.Text = fileName;
             var dict = GetSheetList();
             ShowSheetList(dict);
         }
@@ -174,6 +175,7 @@ namespace ExcelSheetNameList
                     return;
                 }
 
+                textBox1.Text = openFileDialog1.FileName;
                 var dict = GetSheetList();
                 ShowSheetList(dict);
             }
