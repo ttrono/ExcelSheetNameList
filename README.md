@@ -21,4 +21,4 @@ Excelファイル(xlsx, xlsm, xltx, xltm)内シート名を一覧表示するWin
 
 ## 使用ライブラリ
 
-* Open XML SDK 2.5
+* DocumentFormat.OpenXml v2.20.0
